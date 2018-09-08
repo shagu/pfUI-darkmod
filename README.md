@@ -10,7 +10,7 @@ The pfUI-darkmod is a pfUI modification and an example on how to modify pfUI wit
 <img src="https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/pfUI-darkmod/raidloot.jpg" width="48.87%">
 
 ## Dependency
-You need to have pfUI installed. Learn more how to download & install pfUI [HERE](https://shagu.org/pfUI].
+You need to have pfUI installed. Learn more how to download & install pfUI [HERE](https://shagu.org/pfUI).
 
 ## Installation
 1. Download **[Latest Version](https://gitlab.com/shagu/pfUI-darkmod/-/archive/master/pfUI-darkmod-master.zip)**
