@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: |cff33ffccpf|cffffffffUI|cffaaaaaa [|cff33aa88dark|cffccccccmod]
+## Author: Shagu
+## Notes: [darkmod] is a pfUI modification and an example on how to modify pfUI without touching the addon-core itself.
+## Version: 1.0
+## Dependencies: pfUI
+
+# main
+pfUI-darkmod.lua
