@@ -124,12 +124,18 @@ pfUI:RegisterModule("aguimod", function ()
     return
   end
 
-  -- make sure that all 4 required actionbars are loaded
-  UIOptionsFrame_Load(UIOptionsFrame)
-  SHOW_MULTI_ACTIONBAR_1 = 1
-  SHOW_MULTI_ACTIONBAR_2 = 1
-  SHOW_MULTI_ACTIONBAR_3 = 1
-  UIParent_ManageFramePositions()
+  -- make sure that all 4 required actionbars are loaded.
+  -- using an event frame to delay the call to make sure that
+  -- all frames required by UIOptionsFrame are already loaded.
+  local loader = CreateFrame("Frame")
+  loader:RegisterEvent("PLAYER_ENTERING_WORLD")
+  loader:SetScript("OnEvent", function()
+    UIOptionsFrame_Load()
+    _G.SHOW_MULTI_ACTIONBAR_1 = 1
+    _G.SHOW_MULTI_ACTIONBAR_2 = 1
+    _G.SHOW_MULTI_ACTIONBAR_3 = 1
+    UIOptionsFrame_Save()
+  end)
 
   -- define and calculate some basic variables to safe some space later.
   local border = tonumber(pfUI_config.appearance.border.default)
