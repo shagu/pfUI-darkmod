@@ -1,6 +1,8 @@
 # pfUI \[darkmod\]
 
-The pfUI-darkmod is a pfUI modification and an example on how to modify pfUI without touching the addon-core itself. It automatically adjusts all frame positions and draws a gradient backdrop at the bottom of the screen. This can be used as a template/instructions to your own modifications.
+The pfUI-darkmod is a pfUI modification that statically configures pfUI without touching its code. It's meant as an example for developers who want to ship their own clean pfUI modifications without the need of branching the pfUI addon itself. This example automatically force-adjusts all frame positions, ships a profile and draws a gradient backdrop at the bottom of the screen. 
+
+If you're not a developer but like the darkmod as is, feel free to use it. But be aware that by using it, you agree to either not change any further positions/settings or doing so by modifiying this addons code.
 
 ## Screenshots
 
