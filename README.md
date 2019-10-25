@@ -15,7 +15,7 @@ Since this addon force-overwrites options, functions and positions that are usua
 You need to have pfUI installed. Learn more how to download & install pfUI [HERE](https://shagu.org/pfUI).
 
 ## Installation
-1. Download **[Latest Version](https://gitlab.com/shagu/pfUI-darkmod/-/archive/master/pfUI-darkmod-master.zip)**
+1. Download **[Latest Version](https://github.com/shagu/pfUI-darkmod/archive/master.zip)**
 2. Unpack the Zip file
 3. Rename the folder "pfUI-darkmod-master" to "pfUI-darkmod"
 4. Copy "pfUI-darkmod" into Wow-Directory\Interface\AddOns
