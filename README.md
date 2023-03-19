@@ -1,4 +1,7 @@
 # pfUI \[darkmod\]
+
+**Do not install this extension unless you know what you're doing!**
+
 The pfUI-darkmod is an example pfUI module that statically configures pfUI. Its purpose is for developers who want to modify pfUI without changing the addon core itself. This addon and its source-code are intended to give developers an idea of how to use the API, hook functions and change basic alignments of pfUI.
 
 If you're not a developer on your own but like the darkmod as is, feel free to use it. But be aware that you are out of support and on your own.
